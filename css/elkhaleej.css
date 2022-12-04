@@ -388,7 +388,6 @@ eader .container nav ul li.Srv ul {
     margin: 14px auto;
   }
   .magazzine .box img {
-    order: 1;
     max-width: 42%;
     box-shadow: 20px 0px 20px 0px #0000002b;
     margin-left: 30px;
@@ -411,6 +410,10 @@ eader .container nav ul li.Srv ul {
   .magazzine .box p {
     font-size: 22px;
     line-height: 2;
+  }
+  img.order {
+    order: 1;
+    display: flex;
   }
 }
 
@@ -463,6 +466,7 @@ eader .container nav ul li.Srv ul {
   font-weight: 900;
   position: absolute;
 }
+
 /* End Magazzine */
 /* Start Contact */
 .Footer {
